@@ -7,6 +7,11 @@
   --background: #fff;
 }
 
+@viewport { 
+  width: device-width; 
+  zoom: 1; 
+}
+
 body {
   font-family: "Raleway", sans-serif;
   background-color: var(--background);
@@ -425,8 +430,8 @@ footer {
 	}
 
 	.filter-types i {
-		min-width: 2.5em;
-		min-height: 2.5em;
+		min-width: 40px;
+		min-height: 40px;
 		margin-right: 0;
 	}
 
