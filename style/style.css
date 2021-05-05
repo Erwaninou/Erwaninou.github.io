@@ -8,8 +8,8 @@
 }
 
 @viewport { 
-  width: device-width; 
-  zoom: 1; 
+    width: device-width; 
+    zoom: 1; 
 }
 
 body {
@@ -450,6 +450,7 @@ footer {
 	.lodging-card {
 		max-width: 30%;
 		margin: 16px;
+    box-sizing: border-box;
 	}
 
 	.pop-section {
