@@ -52,6 +52,8 @@ body {
   text-align: center;
   border-top: 3px transparent solid;
   border-bottom: 3px transparent solid;
+  text-decoration: none;
+  color: #000;
 }
 .headerNavLink[data-active=true] {
   color: var(--primary);
@@ -412,11 +414,14 @@ color: #b9b9b9;
     border-top: none;
     border-bottom: 3px solid #F2F2F2;
     width: 50%;
+    color: #000;
   }
   .headerNavLink[data-active=true] {
     border-top: none;
     border-bottom: 3px solid #0065FC;
   }
+
+
 
 	.research-button {
 		padding-left: 24px;
